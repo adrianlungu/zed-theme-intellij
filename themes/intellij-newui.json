@@ -27,7 +27,7 @@
         "element.selected": "#5A5D6399",
         "element.disabled": "#43454A4d",
 
-        "drop_target.background": "#3573F026",
+        "drop_target.background": "#467FF280",
         "ghost_element.background": "#00000000",
         "ghost_element.hover": "#393B40ff",
         "ghost_element.active": "#43454Aff",
@@ -114,7 +114,7 @@
         "conflict.background": "#512b29ff" /*unused v0.138.4*/,
         "conflict.border": "#7b4542ff" /*unused v0.138.4*/,
 
-        "created": "#73BD79ff",
+        "created": "#e7968bff",
         "created.background": "#436946ff" /*unused v0.138.4*/,
         "created.border": "#4E8052ff" /*unused v0.138.4*/,
 
@@ -134,7 +134,7 @@
         "hint.background": "#2B2D30ff",
         "hint.border": "#5A5D63ff",
 
-        "ignored": "#5A5D63ff",
+        "ignored": "#FFFFFF3F",
         "ignored.background": "#2B2D30ff",
         "ignored.border": "#393B40ff",
 
@@ -264,18 +264,6 @@
             "font_style": "italic",
             "font_weight": null
           },
-          "escape": {
-            /* some languages use @escape instead of @string.escape */
-            "color": "#CF8E6Dff",
-            "font_style": null,
-            "font_weight": null
-          },
-          "float": {
-            /* A few languages use @float instead of @number */
-            "color": "#2AACB8ff",
-            "font_style": null,
-            "font_weight": null
-          },
           "function": {
             "color": "#56A8F5ff",
             "font_style": null,
@@ -286,8 +274,7 @@
             "font_style": null,
             "font_weight": null
           },
-          "function.special": {
-            /* Rust macro identifier */
+          "function.special.definition": {
             "color": "#FFC66Dff",
             "font_style": null,
             "font_weight": null
@@ -305,12 +292,6 @@
           "label": {
             "color": "#BCBEC4ff",
             "font_style": null,
-            "font_weight": null
-          },
-          "lifetime": {
-            /* Rust lifetime specifier */
-            "color": "#20999Dff",
-            "font_style": "italic",
             "font_weight": null
           },
           "link_text": {
